@@ -13,7 +13,8 @@ class ViewController: UIViewController {
         skView.showsNodeCount = true
 
         // viewと同じサイズのGameSceneを作成
-        let scene = GameScene(size: skView.bounds.size)
+        // let scene = GameScene(size: skView.bounds.size)  // GameScene.swiftを呼び出す
+        let scene = GameScene2(size: skView.bounds.size)    // GameScene2.swiftを呼び出す
         // viewにsceneを表示
         skView.presentScene(scene)
     }

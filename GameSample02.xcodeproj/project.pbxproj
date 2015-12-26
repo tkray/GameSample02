@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		973156AC1C2BC75D0030C565 /* GameScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973156AB1C2BC75D0030C565 /* GameScene2.swift */; };
 		97B8089C1C03E89C001DCD7D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B8089B1C03E89C001DCD7D /* GameScene.swift */; };
 		97BE17291C005CBA00506179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE17281C005CBA00506179 /* AppDelegate.swift */; };
 		97BE172B1C005CBA00506179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE172A1C005CBA00506179 /* ViewController.swift */; };
@@ -35,18 +36,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		973156AB1C2BC75D0030C565 /* GameScene2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene2.swift; sourceTree = "<group>"; };
 		97B8089B1C03E89C001DCD7D /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		97BE17251C005CBA00506179 /* GameSample01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameSample01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BE17251C005CBA00506179 /* GameSample02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameSample02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97BE17281C005CBA00506179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97BE172A1C005CBA00506179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97BE172D1C005CBA00506179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97BE172F1C005CBA00506179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97BE17321C005CBA00506179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97BE17341C005CBA00506179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97BE17391C005CBB00506179 /* GameSample01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameSample01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BE17391C005CBB00506179 /* GameSample02.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameSample02.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97BE173D1C005CBB00506179 /* GameSample01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSample01Tests.swift; sourceTree = "<group>"; };
 		97BE173F1C005CBB00506179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97BE17441C005CBB00506179 /* GameSample01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameSample01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BE17441C005CBB00506179 /* GameSample02.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameSample02.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97BE17481C005CBB00506179 /* GameSample01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSample01UITests.swift; sourceTree = "<group>"; };
 		97BE174A1C005CBB00506179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,9 +81,9 @@
 		97BE171C1C005CBA00506179 = {
 			isa = PBXGroup;
 			children = (
-				97BE17271C005CBA00506179 /* GameSample01 */,
-				97BE173C1C005CBB00506179 /* GameSample01Tests */,
-				97BE17471C005CBB00506179 /* GameSample01UITests */,
+				97BE17271C005CBA00506179 /* GameSample02 */,
+				97BE173C1C005CBB00506179 /* GameSample02Tests */,
+				97BE17471C005CBB00506179 /* GameSample02UITests */,
 				97BE17261C005CBA00506179 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +91,14 @@
 		97BE17261C005CBA00506179 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97BE17251C005CBA00506179 /* GameSample01.app */,
-				97BE17391C005CBB00506179 /* GameSample01Tests.xctest */,
-				97BE17441C005CBB00506179 /* GameSample01UITests.xctest */,
+				97BE17251C005CBA00506179 /* GameSample02.app */,
+				97BE17391C005CBB00506179 /* GameSample02.xctest */,
+				97BE17441C005CBB00506179 /* GameSample02.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		97BE17271C005CBA00506179 /* GameSample01 */ = {
+		97BE17271C005CBA00506179 /* GameSample02 */ = {
 			isa = PBXGroup;
 			children = (
 				97BE17281C005CBA00506179 /* AppDelegate.swift */,
@@ -106,34 +108,38 @@
 				97BE17311C005CBA00506179 /* LaunchScreen.storyboard */,
 				97BE17341C005CBA00506179 /* Info.plist */,
 				97B8089B1C03E89C001DCD7D /* GameScene.swift */,
+				973156AB1C2BC75D0030C565 /* GameScene2.swift */,
 			);
+			name = GameSample02;
 			path = GameSample01;
 			sourceTree = "<group>";
 		};
-		97BE173C1C005CBB00506179 /* GameSample01Tests */ = {
+		97BE173C1C005CBB00506179 /* GameSample02Tests */ = {
 			isa = PBXGroup;
 			children = (
 				97BE173D1C005CBB00506179 /* GameSample01Tests.swift */,
 				97BE173F1C005CBB00506179 /* Info.plist */,
 			);
+			name = GameSample02Tests;
 			path = GameSample01Tests;
 			sourceTree = "<group>";
 		};
-		97BE17471C005CBB00506179 /* GameSample01UITests */ = {
+		97BE17471C005CBB00506179 /* GameSample02UITests */ = {
 			isa = PBXGroup;
 			children = (
 				97BE17481C005CBB00506179 /* GameSample01UITests.swift */,
 				97BE174A1C005CBB00506179 /* Info.plist */,
 			);
+			name = GameSample02UITests;
 			path = GameSample01UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97BE17241C005CBA00506179 /* GameSample01 */ = {
+		97BE17241C005CBA00506179 /* GameSample02 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97BE174D1C005CBB00506179 /* Build configuration list for PBXNativeTarget "GameSample01" */;
+			buildConfigurationList = 97BE174D1C005CBB00506179 /* Build configuration list for PBXNativeTarget "GameSample02" */;
 			buildPhases = (
 				97BE17211C005CBA00506179 /* Sources */,
 				97BE17221C005CBA00506179 /* Frameworks */,
@@ -143,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = GameSample01;
+			name = GameSample02;
 			productName = GameSample01;
-			productReference = 97BE17251C005CBA00506179 /* GameSample01.app */;
+			productReference = 97BE17251C005CBA00506179 /* GameSample02.app */;
 			productType = "com.apple.product-type.application";
 		};
-		97BE17381C005CBB00506179 /* GameSample01Tests */ = {
+		97BE17381C005CBB00506179 /* GameSample02Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97BE17501C005CBB00506179 /* Build configuration list for PBXNativeTarget "GameSample01Tests" */;
+			buildConfigurationList = 97BE17501C005CBB00506179 /* Build configuration list for PBXNativeTarget "GameSample02Tests" */;
 			buildPhases = (
 				97BE17351C005CBB00506179 /* Sources */,
 				97BE17361C005CBB00506179 /* Frameworks */,
@@ -161,14 +167,14 @@
 			dependencies = (
 				97BE173B1C005CBB00506179 /* PBXTargetDependency */,
 			);
-			name = GameSample01Tests;
+			name = GameSample02Tests;
 			productName = GameSample01Tests;
-			productReference = 97BE17391C005CBB00506179 /* GameSample01Tests.xctest */;
+			productReference = 97BE17391C005CBB00506179 /* GameSample02.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		97BE17431C005CBB00506179 /* GameSample01UITests */ = {
+		97BE17431C005CBB00506179 /* GameSample02UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97BE17531C005CBB00506179 /* Build configuration list for PBXNativeTarget "GameSample01UITests" */;
+			buildConfigurationList = 97BE17531C005CBB00506179 /* Build configuration list for PBXNativeTarget "GameSample02UITests" */;
 			buildPhases = (
 				97BE17401C005CBB00506179 /* Sources */,
 				97BE17411C005CBB00506179 /* Frameworks */,
@@ -179,9 +185,9 @@
 			dependencies = (
 				97BE17461C005CBB00506179 /* PBXTargetDependency */,
 			);
-			name = GameSample01UITests;
+			name = GameSample02UITests;
 			productName = GameSample01UITests;
-			productReference = 97BE17441C005CBB00506179 /* GameSample01UITests.xctest */;
+			productReference = 97BE17441C005CBB00506179 /* GameSample02.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97BE17201C005CBA00506179 /* Build configuration list for PBXProject "GameSample01" */;
+			buildConfigurationList = 97BE17201C005CBA00506179 /* Build configuration list for PBXProject "GameSample02" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97BE17241C005CBA00506179 /* GameSample01 */,
-				97BE17381C005CBB00506179 /* GameSample01Tests */,
-				97BE17431C005CBB00506179 /* GameSample01UITests */,
+				97BE17241C005CBA00506179 /* GameSample02 */,
+				97BE17381C005CBB00506179 /* GameSample02Tests */,
+				97BE17431C005CBB00506179 /* GameSample02UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97B8089C1C03E89C001DCD7D /* GameScene.swift in Sources */,
+				973156AC1C2BC75D0030C565 /* GameScene2.swift in Sources */,
 				97BE172B1C005CBA00506179 /* ViewController.swift in Sources */,
 				97BE17291C005CBA00506179 /* AppDelegate.swift in Sources */,
 			);
@@ -286,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		97BE173B1C005CBB00506179 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 97BE17241C005CBA00506179 /* GameSample01 */;
+			target = 97BE17241C005CBA00506179 /* GameSample02 */;
 			targetProxy = 97BE173A1C005CBB00506179 /* PBXContainerItemProxy */;
 		};
 		97BE17461C005CBB00506179 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 97BE17241C005CBA00506179 /* GameSample01 */;
+			target = 97BE17241C005CBA00506179 /* GameSample02 */;
 			targetProxy = 97BE17451C005CBB00506179 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -403,8 +410,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GameSample01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.yuuki.tkra.GameSample01;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yuuki.tkra.GameSample02;
+				PRODUCT_NAME = GameSample02;
 			};
 			name = Debug;
 		};
@@ -414,8 +421,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GameSample01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.yuuki.tkra.GameSample01;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yuuki.tkra.GameSample02;
+				PRODUCT_NAME = GameSample02;
 			};
 			name = Release;
 		};
@@ -426,8 +433,8 @@
 				INFOPLIST_FILE = GameSample01Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.yuuki.tkra.GameSample01Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameSample01.app/GameSample01";
+				PRODUCT_NAME = GameSample02;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameSample02.app/GameSample02";
 			};
 			name = Debug;
 		};
@@ -438,8 +445,8 @@
 				INFOPLIST_FILE = GameSample01Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.yuuki.tkra.GameSample01Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameSample01.app/GameSample01";
+				PRODUCT_NAME = GameSample02;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameSample02.app/GameSample02";
 			};
 			name = Release;
 		};
@@ -449,7 +456,7 @@
 				INFOPLIST_FILE = GameSample01UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.yuuki.tkra.GameSample01UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GameSample02;
 				TEST_TARGET_NAME = GameSample01;
 				USES_XCTRUNNER = YES;
 			};
@@ -461,7 +468,7 @@
 				INFOPLIST_FILE = GameSample01UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.yuuki.tkra.GameSample01UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GameSample02;
 				TEST_TARGET_NAME = GameSample01;
 				USES_XCTRUNNER = YES;
 			};
@@ -470,7 +477,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97BE17201C005CBA00506179 /* Build configuration list for PBXProject "GameSample01" */ = {
+		97BE17201C005CBA00506179 /* Build configuration list for PBXProject "GameSample02" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97BE174B1C005CBB00506179 /* Debug */,
@@ -479,7 +486,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97BE174D1C005CBB00506179 /* Build configuration list for PBXNativeTarget "GameSample01" */ = {
+		97BE174D1C005CBB00506179 /* Build configuration list for PBXNativeTarget "GameSample02" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97BE174E1C005CBB00506179 /* Debug */,
@@ -488,7 +495,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97BE17501C005CBB00506179 /* Build configuration list for PBXNativeTarget "GameSample01Tests" */ = {
+		97BE17501C005CBB00506179 /* Build configuration list for PBXNativeTarget "GameSample02Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97BE17511C005CBB00506179 /* Debug */,
@@ -497,7 +504,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97BE17531C005CBB00506179 /* Build configuration list for PBXNativeTarget "GameSample01UITests" */ = {
+		97BE17531C005CBB00506179 /* Build configuration list for PBXNativeTarget "GameSample02UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97BE17541C005CBB00506179 /* Debug */,

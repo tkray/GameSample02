@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "97BE17241C005CBA00506179"
-               BuildableName = "GameSample01.app"
-               BlueprintName = "GameSample01"
-               ReferencedContainer = "container:GameSample01.xcodeproj">
+               BuildableName = "GameSample02.app"
+               BlueprintName = "GameSample02"
+               ReferencedContainer = "container:GameSample02.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "97BE17381C005CBB00506179"
-               BuildableName = "GameSample01Tests.xctest"
-               BlueprintName = "GameSample01Tests"
-               ReferencedContainer = "container:GameSample01.xcodeproj">
+               BuildableName = "GameSample02.xctest"
+               BlueprintName = "GameSample02Tests"
+               ReferencedContainer = "container:GameSample02.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "97BE17431C005CBB00506179"
-               BuildableName = "GameSample01UITests.xctest"
-               BlueprintName = "GameSample01UITests"
-               ReferencedContainer = "container:GameSample01.xcodeproj">
+               BuildableName = "GameSample02.xctest"
+               BlueprintName = "GameSample02UITests"
+               ReferencedContainer = "container:GameSample02.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "97BE17241C005CBA00506179"
-            BuildableName = "GameSample01.app"
-            BlueprintName = "GameSample01"
-            ReferencedContainer = "container:GameSample01.xcodeproj">
+            BuildableName = "GameSample02.app"
+            BlueprintName = "GameSample02"
+            ReferencedContainer = "container:GameSample02.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "97BE17241C005CBA00506179"
-            BuildableName = "GameSample01.app"
-            BlueprintName = "GameSample01"
-            ReferencedContainer = "container:GameSample01.xcodeproj">
+            BuildableName = "GameSample02.app"
+            BlueprintName = "GameSample02"
+            ReferencedContainer = "container:GameSample02.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "97BE17241C005CBA00506179"
-            BuildableName = "GameSample01.app"
-            BlueprintName = "GameSample01"
-            ReferencedContainer = "container:GameSample01.xcodeproj">
+            BuildableName = "GameSample02.app"
+            BlueprintName = "GameSample02"
+            ReferencedContainer = "container:GameSample02.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
