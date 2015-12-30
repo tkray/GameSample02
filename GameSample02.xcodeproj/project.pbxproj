@@ -16,6 +16,7 @@
 		97BE17331C005CBA00506179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97BE17311C005CBA00506179 /* LaunchScreen.storyboard */; };
 		97BE173E1C005CBB00506179 /* GameSample01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE173D1C005CBB00506179 /* GameSample01Tests.swift */; };
 		97BE17491C005CBB00506179 /* GameSample01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE17481C005CBB00506179 /* GameSample01UITests.swift */; };
+		97E76D921C34855C00B0195C /* GameScene3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E76D911C34855C00B0195C /* GameScene3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		97BE17441C005CBB00506179 /* GameSample02.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameSample02.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97BE17481C005CBB00506179 /* GameSample01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSample01UITests.swift; sourceTree = "<group>"; };
 		97BE174A1C005CBB00506179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E76D911C34855C00B0195C /* GameScene3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				97BE17341C005CBA00506179 /* Info.plist */,
 				97B8089B1C03E89C001DCD7D /* GameScene.swift */,
 				973156AB1C2BC75D0030C565 /* GameScene2.swift */,
+				97E76D911C34855C00B0195C /* GameScene3.swift */,
 			);
 			name = GameSample02;
 			path = GameSample01;
@@ -268,6 +271,7 @@
 				97B8089C1C03E89C001DCD7D /* GameScene.swift in Sources */,
 				973156AC1C2BC75D0030C565 /* GameScene2.swift in Sources */,
 				97BE172B1C005CBA00506179 /* ViewController.swift in Sources */,
+				97E76D921C34855C00B0195C /* GameScene3.swift in Sources */,
 				97BE17291C005CBA00506179 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
